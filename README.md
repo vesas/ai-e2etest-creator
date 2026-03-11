@@ -1,4 +1,4 @@
-# agent-testcreator
+# E2E-testcreator
 
 Creating E2E test cases for React app with AI from human written specifications.
 
