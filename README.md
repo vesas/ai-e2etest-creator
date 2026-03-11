@@ -1,3 +1,7 @@
+# agent-testcreator
+
+Creating E2E test cases for React app with AI agents from human written specifications.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
