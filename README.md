@@ -1,6 +1,8 @@
 # E2E-testcreator
 
-AI assisted test automation. Creating E2E test cases for React app with AI from human written specifications. Robot framework is used for test cases. The actual test cases are defined in robot framework code and does not change between test automation runs.
+AI assisted test automation. Creating E2E test cases for React app with AI from human written specifications. Robot framework is used for test cases. The actual test cases are defined in robot framework code and they do not change between test automation runs.
+
+The CI/CD pipeline can be Jenkins or any other tool.
 
 ![Customers table](docs/customers-table.png)
 
