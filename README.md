@@ -1,6 +1,6 @@
 # E2E-testcreator
 
-Creating E2E test cases for React app with AI from human written specifications.
+Creating E2E test cases for React app with AI from human written specifications. Robot framework is used for test cases.
 
 ![Customers table](docs/customers-table.png)
 
