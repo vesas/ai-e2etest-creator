@@ -4,6 +4,8 @@ AI assisted test automation. Creating E2E test cases for React app with AI from 
 
 The CI/CD pipeline can be Jenkins or any other tool.
 
+The React frontend looks like this. The test cases make assertions based on the specifications using data seen on the GUI.
+
 ![Customers table](docs/customers-table.png)
 
 ## React App
