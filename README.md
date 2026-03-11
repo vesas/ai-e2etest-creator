@@ -2,6 +2,14 @@
 
 Creating E2E test cases for React app with AI agents from human written specifications.
 
+## E2E Tests
+
+```bash
+pip install -r e2e-tests/requirements.txt  # one-time setup
+npm start                                   # run app in separate terminal
+python -m robot e2e-tests/customers_table.robot
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
