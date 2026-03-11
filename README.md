@@ -2,6 +2,8 @@
 
 Creating E2E test cases for React app with AI from human written specifications.
 
+![Customers table](docs/customers-table.png)
+
 ## React App
 
 ```bash
