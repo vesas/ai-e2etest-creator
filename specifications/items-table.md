@@ -10,6 +10,7 @@ The application displays a table listing customers.
 - **Phone** - Phone number of the customer
 - **Status** - Current status of the customer (Active, Inactive)
 - **Created At** - Date the customer was created
+- **Country** - Country where the customer is located
 
 ## Behavior
 
