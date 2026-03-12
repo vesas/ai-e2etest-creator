@@ -28,7 +28,7 @@ python -m robot e2e-tests/customers_table.robot
 When a feature branch changes the specification, the E2E tests need to be updated
 to match. The recommended workflow uses AI to automate this:
 
-1. **Create a feature branch** with your specification change (see `featurex` as an
+1. **Create a feature branch** with your specification change (see branch `featurex` as an
    example — it adds a `Country` column to `specifications/items-table.md`).
 
 2. **Generate the diff** from `main` to see what the feature branch changed:
