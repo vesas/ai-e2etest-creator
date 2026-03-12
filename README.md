@@ -22,3 +22,23 @@ pip install -r e2e-tests/requirements.txt  # one-time setup
 npm start                                   # run app in separate terminal
 python -m robot e2e-tests/customers_table.robot
 ```
+
+## Handling Specification Changes
+
+When a feature branch changes the specification, the E2E tests need to be updated
+to match. The recommended workflow uses AI to automate this:
+
+1. **Create a feature branch** with your specification change (see `featurex` as an
+   example — it adds a `Country` column to `specifications/items-table.md`).
+
+2. **Generate the diff** to see exactly what changed:
+   ```bash
+   git diff main -- specifications/
+   ```
+
+3. **Use the prompt** in `prompts/update-tests-from-diff.md` — paste the diff into
+   the prompt template and send it to Claude Code (or any AI assistant). It will
+   update `e2e-tests/customers_table.robot` to cover the new columns, remove
+   obsolete assertions, and fix CSS `nth-child` indices automatically.
+
+This keeps tests in sync with specifications without manual test editing.
