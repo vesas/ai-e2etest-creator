@@ -12,7 +12,7 @@ introduces specification changes that the E2E tests need to reflect.
    git diff main..featurex -- specifications/
    ```
 
-3. Paste the diff output into the prompt below and send it to the AI.
+3. Paste the diff output into the prompt below and send it to the AI. Or in AI assistants like Claude Code you can also just ask it to do the comparison between branches.
 
 ---
 
