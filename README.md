@@ -23,6 +23,29 @@ npm start                                   # run app in separate terminal
 python -m robot e2e-tests/customers_table.robot
 ```
 
+## Creating a New Test Suite from a Specification
+
+When you add a new feature specification, AI can generate the full Robot Framework
+test file for you automatically.
+
+1. **Add a specification file** under `specifications/` describing the feature —
+   columns, behaviours, constraints, valid values, etc.
+
+2. **Use the prompt** in `prompts/create-tests-from-specification.md` — fill in the
+   file names and send it to Claude Code (or any AI assistant). It will read the
+   specification, inspect the React component source for CSS class names, and
+   generate a complete `.robot` file in `e2e-tests/`.
+
+3. **Verify the output** — the AI will list any assumptions it made (e.g. inferred
+   CSS selectors) so you can confirm them against the actual component before
+   running the tests.
+
+4. **Run the new tests**:
+   ```bash
+   npm start                              # keep running in a separate terminal
+   python -m robot e2e-tests/<name>.robot
+   ```
+
 ## Handling Specification Changes
 
 When a feature branch changes the specification, the E2E tests need to be updated
