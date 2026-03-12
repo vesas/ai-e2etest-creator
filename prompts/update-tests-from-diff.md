@@ -5,11 +5,11 @@ introduces specification changes that the E2E tests need to reflect.
 
 ## How to Use
 
-1. Check out the feature branch that contains the specification change.
-2. Run the following command to see what changed relative to `main`:
+1. Stay on the `main` branch.
+2. Run the following command to see what the feature branch changed in the specification:
 
    ```bash
-   git diff main -- specifications/
+   git diff main..featurex -- specifications/
    ```
 
 3. Paste the diff output into the prompt below and send it to the AI.
@@ -41,8 +41,8 @@ Only modify what is necessary to reflect the specification diff.
 ## Example Session
 
 ```bash
-# On the feature branch:
-git diff main -- specifications/
+# On the main branch:
+git diff main..featurex -- specifications/
 
 # Sample output (featurex branch adds Country column):
 # -  - **Created At** - Date the customer was created

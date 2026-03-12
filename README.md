@@ -31,9 +31,9 @@ to match. The recommended workflow uses AI to automate this:
 1. **Create a feature branch** with your specification change (see `featurex` as an
    example — it adds a `Country` column to `specifications/items-table.md`).
 
-2. **Generate the diff** to see exactly what changed:
+2. **Generate the diff** from `main` to see what the feature branch changed:
    ```bash
-   git diff main -- specifications/
+   git diff main..featurex -- specifications/
    ```
 
 3. **Use the prompt** in `prompts/update-tests-from-diff.md` — paste the diff into
