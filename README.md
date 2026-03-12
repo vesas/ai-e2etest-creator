@@ -42,3 +42,7 @@ to match. The recommended workflow uses AI to automate this:
    obsolete assertions, and fix CSS `nth-child` indices automatically.
 
 This keeps tests in sync with specifications without manual test editing.
+
+## AI Tools
+
+Claude Code CLI would be very suitable for this kind of work.
